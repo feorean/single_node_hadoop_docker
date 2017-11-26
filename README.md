@@ -1,7 +1,7 @@
-#Single node HADOOP on docker container
+# Single node HADOOP on docker container
 
 
-##This Dockerfile builds Hadoop Docker image using Ubuntu image and OpenJDK jvm on single node.
+## This Dockerfile builds Hadoop Docker image using Ubuntu image and OpenJDK jvm on single node.
 
 
 NOTE: I have not included hadoop instalation file as it big (too big for image rebuilds). But you can download it from [Apache web site](http://hadoop.apache.org/releases.html).
@@ -45,4 +45,9 @@ Please note that above URLs will only work if you try to access it from differen
 See notes on  MACVLAN documentation on [docker docs](https://docs.docker.com/engine/userguide/networking/get-started-macvlan/#macvlan-bridge-mode-example-usage)
 But you can fix it using suggested solution on that page. But there is a small issue on that example. I have already submitted [pull request to fix it on official documentation](https://github.com/docker/docker.github.io/pull/5394).
 
+
+
 Enjoy!
+
+
+
