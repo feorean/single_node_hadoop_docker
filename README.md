@@ -1,4 +1,7 @@
-#This Dockerfile builds Hadoop Docker image using Ubuntu image and OpenJDK jvm on single node.
+# Setting up Single node HADOOP on docker container
+
+
+## This Dockerfile builds Hadoop Docker image using Ubuntu image and OpenJDK jvm on single node.
 
 NOTE: I have not included hadoop instalation file as it big (too big for image rebuilds). But you can download it from Apache web site.
 
